@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="background-color: #D0E4AE;">
+<body>
 
 
   <nav class="navbar navbar-expand-lg navbar-light ">
@@ -50,10 +50,10 @@
             <a class="nav-link active" href="acessarturma.html">Acessar sala</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="acessarturma.html">Implementar horta</a>
+            <a class="nav-link active" href="imp.html">Implementar horta</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="acessarturma.html">Gerenciar horta</a>
+            <a class="nav-link active" href="agroec.html">Gerenciar horta</a>
           </li>
         </ul>
       </div>
@@ -71,17 +71,15 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="gau 1.jpeg" class="d-block w-100" alt="...">
+          <img src="img agroec/agro1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="gau 2.jpeg" class="d-block w-100" alt="...">
+          <img src="img agroec/agro2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="gau 3.jpeg" class="d-block w-100" alt="...">
+          <img src="img agroec/agro3.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
-          <img src="if.jpeg" class="d-block w-100" alt="...">
-        </div>
+        
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="prev">
@@ -95,22 +93,40 @@
       </button>
     </div>
   </div>
-<h2><i>Princípios de uma horta</i></h2>
-<p>Em caso de pouco espaço para plantio ou até mesmo nenhum, você pode optar por cultivar em vasos e/ou caixotes de feira, - mas caso não tenha, você pode usar garrafas pets, copos e outras embalagens de plástico - pois fazendo o uso desses objetos, você consegue realizar sua horta desde espaços fechados como a área interna da escola, até espaços mais amplos como a parte externa, independente de a região estar pavimentada ou não. </p>
-<p>Tanto em vasos quanto em caixotes, são necessários poucos materiais e os procedimentos são semelhantes. Porém, antes de iniciar o plantio nesses locais, é importante se atentar à espécie que você vai estar cuidando e se ela será capaz de se desenvolver naquele espaço, pensando nisso trouxemos algumas sugestões de hortaliças para serem plantadas, assim como todos os passos a serem seguidos para um melhor crescimento
+<h2><i>Seja Bem-vindo</i></h2>
+<p>
+<?php
+  session_start();
+  echo $_SESSION['PROFESSOR'] ."</br>";
+  echo $_SESSION['EMAIL'] . "</br>";
+
+?>
 </p>
+
+<br>
+<img class="primavesi" src="img agroec/primavesi.jpg">
+<p><a href="https://anamariaprimavesi.com.br/wp-content/uploads/2020/01/Cartilha-do-Solo-Como-reconhecer-e-sanar-seus-problemas.pdf"><b>Primavesi e a agroecologia:</b> https://anamariaprimavesi.com.br/wp-content/uploads/2020/01/Cartilha-do-Solo-Como-reconhecer-e-sanar-seus-problemas.pdf</a></p>
+<p><a href="https://arca.furg.br/images/stories/producao/agroecologia_short_port.pdf"><b>Altieri e a agroecologia:</b> https://arca.furg.br/images/stories/producao/agroecologia_short_port.pdf</a></p>
+<p><a href="https://www.ecycle.com.br/agroecologia/"><b>Segundo eCycle:</b> https://www.ecycle.com.br/agroecologia/</a></p>
 <br><br>
-<p><a href="https://anamariaprimavesi.com.br/wp-content/uploads/2020/01/Cartilha-do-Solo-Como-reconhecer-e-sanar-seus-problemas.pdf">"Link 1: https://anamariaprimavesi.com.br/wp-content/uploads/2020/01/Cartilha-do-Solo-Como-reconhecer-e-sanar-seus-problemas.pdf</a></p>
-<p>"Link 2: https://anamariaprimavesi.com.br/wp-content/uploads/2020/01/Cartilha-do-Solo-Como-reconhecer-e-sanar-seus-problemas.pdf</p>
-<p>"Link 3: https://anamariaprimavesi.com.br/wp-content/uploads/2020/01/Cartilha-do-Solo-Como-reconhecer-e-sanar-seus-problemas.pdf</p>
-<br><br>
-<a class="pdf" href="https://drive.google.com/uc?id=1AWOE91i6IjxgVTppO0kHuO6fNIBKMZ5K&export=download">Baixar PDF</a> 
-<button class="prox"> Próximo</button>
-<input class="check" type="checkbox"> Conteúdo visto
+
+
+<form action="pas.html" method="get">
+  <a class="pdf" href="https://drive.google.com/uc?id=1AWOE91i6IjxgVTppO0kHuO6fNIBKMZ5K&export=download">Baixar PDF</a> 
+  
+  <button type="submit" class="prox" > Próximo</button>
+  </form>
+  <br>
+  <h6><i>Foto de Ana Maria Primavesi</i></h6>
+  
 </div>
 
 <div class="foot">
   
+</div>
+
+<div class="prod">
+  <i>Produzido pela Cooperativa Dagnino Primavesi</i>
 </div>
 
 </body>
