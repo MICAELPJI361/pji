@@ -375,7 +375,7 @@ padding-left: 1000px;
     color:black;
 }
 .prox{
-    margin-left: 25%;
+    margin-left: 1%;
     width: 100px;
     height: 50px;
     background-color:#d0e4ae;
@@ -383,6 +383,7 @@ padding-left: 1000px;
 }
 
 .ante{
+    margin-left: 20%;
     width: 100px;
     height: 50px;
     background-color:#d0e4ae;
@@ -392,7 +393,7 @@ padding-left: 1000px;
 .check{
     width: 30px;
     height: 30px;
-    margin-left: 30%;
+    margin-left: 26%;
 }
 
 
