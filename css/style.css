@@ -88,7 +88,13 @@ padding-left: 1000px;
     margin-bottom:2%;
 }
 
-
+.ante{
+    width: 100px;
+    height: 50px;
+    background-color:#d0e4ae;
+    margin-bottom:2%;
+    
+}
 .check{
     width: 30px;
     height: 30px;
