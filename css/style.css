@@ -365,6 +365,7 @@ padding-left: 1000px;
 
 /** Fundo da página */
 .pdf{
+    text-decoration: none;
     margin-left: 15%;
     width: 100px;
     height: 100px;
@@ -375,19 +376,29 @@ padding-left: 1000px;
     color:black;
 }
 .prox{
+    text-decoration: none;
     margin-left: 1%;
     width: 100px;
     height: 50px;
     background-color:#d0e4ae;
     margin-bottom:2%;
+    border-radius: 1px;
+    border: black;
+    border-style: groove;
+    color:black;
 }
 
 .ante{
+    text-decoration: none;
     margin-left: 20%;
     width: 100px;
     height: 50px;
     background-color:#d0e4ae;
     margin-bottom:2%;
+    border-radius: 1px;
+    border: black;
+    border-style: groove;
+    color:black;
     
 }
 .check{
