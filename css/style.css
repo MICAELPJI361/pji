@@ -91,7 +91,7 @@ body {
 }
 
 .navbar li {
-    position: relative;
+    position: fixed;
 }
 
 .navbar a,
