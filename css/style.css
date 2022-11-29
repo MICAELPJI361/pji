@@ -453,14 +453,8 @@ h6 {
     padding-top: 10px;
     position: absolute;
     margin-left: 8%;
-    background-color: #d0e4ae;
     margin-top: 13%;
     border-radius: 5px;
-    border: black;
-    border-style: groove;
-    color: #4C2C69;
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
 }
 
 .implebut:hover {
