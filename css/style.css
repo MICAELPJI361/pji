@@ -218,7 +218,7 @@ body {
 
 @media (max-width: 991px) {
     .mobile-nav-toggle {
-        display: fixed;
+        display: relative;
     }
 
     .navbar ul {
@@ -227,7 +227,7 @@ body {
 }
 
 .navbar-mobile {
-    position: fixed;
+    position: relative;
     overflow: auto;
     top: 0;
     right: 0;
