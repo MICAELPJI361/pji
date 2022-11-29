@@ -467,16 +467,9 @@ h6 {
     height: 45%;
     position: absolute;
     margin-left: 52%;
-    background-color: #d0e4ae;
     margin-top: 13%;
     text-align: center;
-    padding-top: 40px;
-    border-radius: 5px;
-    border: black;
-    border-style: groove;
-    color: #4C2C69;
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
+    padding-top: 10px;
 }
 
 .implebuti:hover {
