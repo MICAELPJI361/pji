@@ -227,7 +227,7 @@ body {
 }
 
 .navbar-mobile {
-    position: static;
+    position: relative;
     overflow: hidden;
     top: 0;
     right: 0;
