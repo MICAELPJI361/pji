@@ -349,6 +349,8 @@ p {
 }
 
 .inic {
+    width: 40%;
+    height: 40%;
     background-color: white;
     margin-bottom: 5%;
     margin-top: 2%;
