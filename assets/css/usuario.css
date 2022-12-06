@@ -1,39 +1,46 @@
+/*
+Login e Cadastro - Corpo
+*/
+
 * {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0
-    }
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
 
 
 body {
-    font-family:'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: rgb(237, 236, 236);
     font-family: 'Anek Telugu', sans-serif;
     text-align: center;
     color: #00c28e;
 }
 
+/*
+Elementos formularios
+*/
 #input-entrar {
     background-color: #00c28e;
-    color:  rgb(237, 236, 236);
+    color: rgb(237, 236, 236);
     margin: 50px;
     margin-left: 40%;
     margin-right: 40%;
     margin-top: 1%;
     margin-bottom: 1%;
 
-    padding-top:7px;
+    padding-top: 7px;
     padding-bottom: 16px;
 }
 
 #input-entrar p {
-text-align: left;
-padding-left: 10px;
-font-size: 20px;
-font-weight: 800;
-margin-bottom: 0;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
 }
 
 #input-entrar input {
@@ -48,19 +55,19 @@ margin-bottom: 0;
     font-size: 40px;
 }
 
-.titulo span { 
+.titulo span {
     font-family: 'Poppins', sans-serif;
-font-weight: 900;
-font-size: 70px;
+    font-weight: 900;
+    font-size: 70px;
 }
 
 .titulo {
-margin-top: 110px;
+    margin-top: 110px;
 }
+/* Botoes página login */
 
-.btn input {
-    cursor: pointer;
-    background-color:#00c28e;
+a.loginBotao {
+    background-color: #00c28e;
     border: none;
     color: aliceblue;
     padding: 10px 42px;
@@ -71,7 +78,11 @@ margin-top: 110px;
     border-radius: 50px;
 }
 
-.btn input {
+a.loginBOtao {
+    margin-top: 15px;
+}
+
+a.loginBotao {
     margin-top: 15px;
 }
 
@@ -94,5 +105,5 @@ margin-top: 110px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 50px;
-    color:#00c28e
+    color: #00c28e
 }
