@@ -1,0 +1,97 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+body {
+    font-family:'Poppins',sans-serif;
+    background: rgb(237, 236, 236);
+    font-family: 'Anek Telugu', sans-serif;
+    text-align: center;
+    color: #00c28e;
+}
+
+#input-entrar {
+    background-color: #00c28e;
+    color:  rgb(237, 236, 236);
+    margin: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    padding-top:7px;
+    padding-bottom: 16px;
+}
+
+#input-entrar p {
+text-align: left;
+padding-left: 10px;
+font-size: 20px;
+font-weight: 800;
+margin-bottom: 0;
+}
+
+#input-entrar input {
+    width: 90%;
+    height: 35px;
+    border-radius: 70px;
+    border: aliceblue;
+}
+
+.titulo p {
+    padding-top: 0%;
+    font-size: 40px;
+}
+
+.titulo span { 
+    font-family: 'Poppins', sans-serif;
+font-weight: 900;
+font-size: 70px;
+}
+
+.titulo {
+margin-top: 110px;
+}
+
+.btn input {
+    background-color:#00c28e;
+    border: none;
+    color: aliceblue;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.btn input {
+    margin-top: 15px;
+}
+
+.margem p {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #00c28e
+}
+
+.margem {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #00c28e
+}
+
+
+#eco {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color:#00c28e
+}
