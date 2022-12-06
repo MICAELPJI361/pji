@@ -1328,18 +1328,6 @@ body {
     display: block;
 }
 
-/** Navbar geral 
-.navbar-nav{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content:space-between;
-}
-.navbar{
-    background-color: #93B4DB;
-    margin-top: 4%;
-}*/
 
 
 /** Corpo do site */
