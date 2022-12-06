@@ -36,6 +36,7 @@ Elementos formularios
 }
 
 #input-entrar p {
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     padding-left: 10px;
     font-size: 20px;
@@ -45,8 +46,8 @@ Elementos formularios
 
 #input-entrar input {
     width: 90%;
-    height: 35px;
-    border-radius: 70px;
+    height: 2vi;
+    border-radius:80px;
     border: aliceblue;
 }
 
@@ -63,27 +64,6 @@ Elementos formularios
 
 .titulo {
     margin-top: 110px;
-}
-/* Botoes página login */
-
-a.loginBotao {
-    background-color: #00c28e;
-    border: none;
-    color: aliceblue;
-    padding: 10px 42px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 50px;
-}
-
-a.loginBOtao {
-    margin-top: 15px;
-}
-
-a.loginBotao {
-    margin-top: 15px;
 }
 
 .margem p {
@@ -106,4 +86,51 @@ a.loginBotao {
     font-weight: 900;
     font-size: 50px;
     color: #00c28e
+}
+
+/* Botoes página login */
+
+a.loginBotao {
+    background-color: #00c28e;
+    border: none;
+    color: aliceblue;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+a.loginBotao {
+    margin-top: 15px;
+}
+
+a.loginBotao {
+    margin-top: 15px;
+}
+
+/* Botoes página cadastro */
+
+a.cadBotao {
+    font-family: 'Poppins', sans-serif;
+    background-color: #00c28e;
+    border: none;
+    color: aliceblue;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+a.cadBotao {
+    margin-top: 15px;
+}
+#Entrar{
+    margin-left: 200px;
+}
+a.cadBotao {
+    margin-top: 15px;
 }
